@@ -51,17 +51,17 @@ namespace Berzerk
         {
             Console.WriteLine("#########################################");
             Console.WriteLine("#                                       #");
-            Console.WriteLine("#           [1] W - move up             #");
             Console.WriteLine("#                                       #");
-            Console.WriteLine("#           [2] A - move right          #");
             Console.WriteLine("#                                       #");
-            Console.WriteLine("#           [3] S - move down           #");
+            Console.WriteLine("#       [1] W,A,S,D - move keys         #");
             Console.WriteLine("#                                       #");
-            Console.WriteLine("#           [4] D - move left           #");
+            Console.WriteLine("#       [2] F - shoot key               #");
             Console.WriteLine("#                                       #");
-            Console.WriteLine("#           [5] Q - quit game           #");
+            Console.WriteLine("#       [3] Q - quit game               #");
+            Console.WriteLine("#                                       #");
             Console.WriteLine("#                                       #");
             Console.WriteLine("#        PRESS ENTER TO CONTINUE        #");
+            Console.WriteLine("#                                       #");
             Console.WriteLine("#                                       #");
             Console.WriteLine("#########################################");
         }

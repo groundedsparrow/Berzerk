@@ -53,5 +53,16 @@ namespace Berzerk
 
             return false;
         }
+
+        public int returnEnemyIndex(int x, int y)
+        {
+            for (int i = 0; i < enemies.Count; i++)
+            {
+                if (enemies[i].x == x && enemies[i].y == y)
+                    return i;
+            }
+
+            return 0;
+        }
     }
 }
