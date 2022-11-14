@@ -8,7 +8,6 @@ namespace Berzerk
 {
     internal class GameRules
     {
-        // TODO: hit enemy
         private Player player;
         private Map map;
         private List<Enemy> enemies;

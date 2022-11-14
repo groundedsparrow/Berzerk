@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Berzerk
@@ -21,6 +22,7 @@ namespace Berzerk
 
         public void printArena()
         {
+            Console.SetCursorPosition(0, 0);
             for (int i = 0; i < map.getHeight(); i++)
             {
                 for (int j = 0; j < map.getWidth(); j++)
@@ -38,6 +40,7 @@ namespace Berzerk
                 }
                 Console.WriteLine();
             }
+            Thread.Sleep(100);
         }
 
         public bool isEnemy(int x, int y)

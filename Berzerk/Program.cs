@@ -37,8 +37,6 @@ namespace Berzerk
                     gameRules.moveEnemy(random.Next(0, enemies.Count));
                 
                 buildGame.printArena();
-                Console.SetCursorPosition(0, 0);
-                Thread.Sleep(100);
 
                 if (gameRules.gameEnd == true)
                 {
